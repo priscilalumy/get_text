@@ -8,5 +8,5 @@ document.getElementById('bt_submit').addEventListener('click', (e) => {
 
 //list items user inputs
 function showInput(){
-	document.getElementById("list_text").innerHTML = '<p>'+'Your wrote: '+vInputText+'</p>'
+	document.getElementById("list_text").innerHTML = '<p>'+'You wrote: '+vInputText+'</p>'
 }
